@@ -25,5 +25,15 @@ Basic functionality such as...
 - Executing commands and processed by forking the main process.
 - Changing directory using "cd" command.
 - Exiting the shell.
+- showing various builtin commands using the help command
 - Running and monitoring process in background.
 - Manual as well as auto killing background process using signals.
+
+All these functionalities work smooth and bug free.
+
+## New Additions
+Some new additions made to this personalised shell include...
+- creating aliases for various commands which makes it very easy to handle long commands
+- added the feature to bring a background to foreground using its process id
+- added the "history" feature to show the history of commands which have been entered(up to the latest 999 entries)
+
